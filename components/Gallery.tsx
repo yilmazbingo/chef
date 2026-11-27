@@ -1,12 +1,41 @@
+import { Great_Vibes } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
+
+const script = Great_Vibes({
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const serif = Playfair_Display({
+  subsets: ["latin"],
+  weight: "400",
+});
 export default function Gallery() {
   return (
     <section id="gallery" className="section bg-ivory text-ink">
-      <div className="reveal text-center mb-12">
-        <p className="eyebrow">03 / A visual journal</p>
-        <h2 className="display heading mt-4">
-          Made to be <em>remembered.</em>
+      <div className="mx-auto mb-12 max-w-5xl text-center">
+        <div className="mb-6 flex items-center justify-center gap-4">
+          <span className="h-px w-10 bg-[#A77B35]" />
+
+          <p className="text-xs uppercase tracking-[0.3em] text-[#A77B35]">
+            03 / A Visual Journal
+          </p>
+
+          <span className="h-px w-10 bg-[#A77B35]" />
+        </div>
+
+        <h2
+          className={`${serif.className} text-5xl font-medium
+    leading-tight tracking-tight text-[#2B2622]
+    md:text-7xl lg:text-8xl`}
+        >
+          Made to be{" "}
+          <span className={`${script.className} font-normal text-[#A77B35]`}>
+            remembered.
+          </span>
         </h2>
-        <p className="mt-4 text-sm text-ink/65">
+
+        <p className="mt-5 text-base leading-relaxed text-[#625C54]">
           Culinary inspiration and event design concepts.
         </p>
       </div>
