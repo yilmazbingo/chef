@@ -1,3 +1,5 @@
+import HospitalityHeading from "./HospitalityHeading";
+
 const services = [
   {
     n: "01",
@@ -22,18 +24,14 @@ const services = [
 export default function Experiences() {
   return (
     <section id="experiences" className="bg-ivory text-ink section">
+      <p
+        className="mb-5 text-center text-xs font-medium
+  uppercase tracking-[0.3em] text-[#A77B35]"
+      >
+        01 / The Experiences
+      </p>
       <div className="reveal flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
-        <div>
-          <p className="eyebrow">01 / The experiences</p>
-          <h2 className="display heading mt-4">
-            Every table tells
-            <br /> <em>a different story.</em>
-          </h2>
-        </div>
-        <p className="max-w-sm text-ink/65 leading-relaxed">
-          Intimate or grand, refined or relaxed. A personal approach to
-          hospitality, from the first conversation to the final course.
-        </p>
+        <HospitalityHeading />
       </div>
       <div className="grid md:grid-cols-3 gap-7">
         {services.map((s) => (
