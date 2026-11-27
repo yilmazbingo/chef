@@ -15,7 +15,7 @@ const services = [
     n: "03",
     title: "Corporate experiences",
     desc: "Thoughtful hospitality for gatherings that deserve more than the expected.",
-    img: "cakes",
+    img: "corporate",
   },
 ];
 
