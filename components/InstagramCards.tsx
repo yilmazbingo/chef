@@ -13,7 +13,7 @@ const reels = [
     image: "/images/reel-2.jpg",
     category: "The Science",
     title: "Beyond the Ingredients",
-    url: "https://www.instagram.com/reel/REEL_ID_2/",
+    url: "https://www.instagram.com/reel/DftJF00KmoC/?cnvx=MXRwbXBvcWViZmVw cg",
   },
   {
     image: "/images/reel-3.jpg",

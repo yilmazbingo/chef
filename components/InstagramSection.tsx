@@ -7,12 +7,6 @@ import InstagramCards from "./InstagramCards";
 
 const instagramUrl = "https://www.instagram.com/xenasflavorlabnpm /";
 
-const reels = [
-  "https://www.instagram.com/reel/Df0rcrCq5WN/?knvt=YXlkYjFlMnVsMnk==",
-  "https://www.instagram.com/reel/DftJF00KmoC/?cnvx=MXRwbXBvcWViZmVwcg==",
-  "https://www.instagram.com/reel/DeS892bqb3W/?lqvp=MWQ2czRmNjFxNHB1Zg==",
-];
-
 export default function InstagramSection() {
   return (
     <section className="bg-[#F4EFE5] px-6 py-24">
