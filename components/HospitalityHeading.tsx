@@ -1,15 +1,5 @@
-import { Cormorant_Garamond, Great_Vibes } from "next/font/google";
 import { UtensilsCrossed } from "lucide-react";
-
-const serif = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["500", "600"],
-});
-
-const script = Great_Vibes({
-  subsets: ["latin"],
-  weight: "400",
-});
+import { serif, script } from "@/lib/fonts";
 
 export default function HospitalityHeading() {
   return (
